@@ -1,0 +1,21 @@
+{
+  "name": "squelette-td7",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "js/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "esbuild lib/index.ts --bundle  --sourcemap --target=es2015 --outfile=js/index.js",
+    "watch": "esbuild lib/index.ts --bundle  --sourcemap --target=es2015 --outfile=js/index.js --watch"
+  },
+  "dependencies": {
+    "esbuild": "0.17.18",
+    "handlebars": "^4.7.8"
+  },
+  "devDependencies": {}
+}
