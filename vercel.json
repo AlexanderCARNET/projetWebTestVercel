@@ -1,4 +1,4 @@
 {
-    "outputDirectory": "public",
+    "outputDirectory": ".",
     "buildCommand": "npm install && mkdir -p public/js && npm run build1"
 }
