@@ -1,4 +1,4 @@
 {
-    "outputDirectory": "dist",
-    "buildCommand": "tsc"
+    "outputDirectory": "js",
+    "buildCommand": "npm run build"
 }
