@@ -1,8 +1,5 @@
 {
-    "outputDirectory": "public",
-    "buildCommand": "npm install && mkdir -p public/js && npm run build1",
-    "framework": null,
-    "routes": [
-        { "src": "/(.*)", "dest": "/index.html" }
-    ]
+    "outputDirectory": "js",
+    "buildCommand": "npm install && npm run build1",
+    "framework": null
 }
