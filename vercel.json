@@ -1,4 +1,4 @@
 {
-    "outputDirectory": "js",
+    "outputDirectory": "public",
     "buildCommand": "npm run build"
 }
