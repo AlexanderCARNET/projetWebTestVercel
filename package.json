@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "esbuild lib/index.ts --bundle  --sourcemap --target=es2015 --outfile=js/index.js",
-    "build1": "esbuild lib/index.ts --bundle  --sourcemap --target=es2015 --outfile=public/js/index.js",
+    "build1": "npx esbuild lib/index.ts --bundle --sourcemap --target=es2015 --outfile=public/js/index.js",
     "watch": "esbuild lib/index.ts --bundle  --sourcemap --target=es2015 --outfile=js/index.js --watch"
   },
   "dependencies": {
